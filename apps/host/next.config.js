@@ -27,6 +27,9 @@ const nextConfig = {
           // whatever else
         },
         shared: {
+          react: {
+            ver,
+          },
           // whatever else
         },
       })

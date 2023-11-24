@@ -1,5 +1,5 @@
 {
-  "name": "template-host",
+  "name": "@demo/main-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "^8.0.1-4",
+    "@module-federation/nextjs-mf": "^8.1.0-canary.7",
+    "@module-federation/runtime": "^1.0.0-canary.1",
     "@module-federation/utilities": "^3.0.0",
     "next": "latest",
     "react": "latest",
