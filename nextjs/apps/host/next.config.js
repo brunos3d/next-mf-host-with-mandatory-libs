@@ -27,8 +27,9 @@ const nextConfig = {
           // whatever else
         },
         shared: {
-          react: {
-            ver,
+          'local-package': {
+            version: '1.0.0',
+            strictVersion: false,
           },
           // whatever else
         },

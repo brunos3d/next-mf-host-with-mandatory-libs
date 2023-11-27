@@ -11,13 +11,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "^8.1.0-canary.7",
-    "@module-federation/runtime": "^1.0.0-canary.1",
-    "@module-federation/utilities": "^3.0.0",
+    "@module-federation/nextjs-mf": "^7.0.8",
+    "local-package": "file:../../../local-package/v1.0.0/local-package-1.0.0.tgz",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest",
-    "react-select": "^5.8.0"
+    "react-dom": "latest"
   },
   "devDependencies": {
     "@types/node": "latest",

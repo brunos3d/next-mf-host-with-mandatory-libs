@@ -13,6 +13,7 @@ const nextConfig = {
           // whatever else
         },
         shared: {
+          'local-package': '2.0.0',
           // whatever else
         },
       })
