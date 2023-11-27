@@ -69,8 +69,12 @@ export function Index() {
           </div>
         </div>
       </div>
-      <h3 className="mt-16">The component below is comes from the remote app</h3>
-      <div className="mt-4 border-4 border-dashed border-rose-500 p-16 rounded-lg w-full">{/* <Table data={tableData} /> */}</div>
+      <h3 className="mt-16">
+        The component below is comes from the remote app
+      </h3>
+      <div className="mt-4 border-4 border-dashed border-rose-500 p-16 rounded-lg w-full">
+        <Table data={tableData} />
+      </div>
     </section>
   );
 }
