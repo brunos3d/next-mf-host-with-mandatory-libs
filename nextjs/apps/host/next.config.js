@@ -28,8 +28,8 @@ const nextConfig = {
         },
         shared: {
           'local-package': {
-            version: '1.0.0',
-            strictVersion: false,
+            singleton: true,
+            strictVersion: true,
           },
           // whatever else
         },

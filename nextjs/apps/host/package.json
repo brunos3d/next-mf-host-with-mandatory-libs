@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@module-federation/nextjs-mf": "^7.0.8",
-    "local-package": "file:../../../local-package/v1.0.0/local-package-1.0.0.tgz",
+    "local-package": "file:../../../local-package/v1.0.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
