@@ -26,12 +26,7 @@ const nextConfig = {
         exposes: {
           // whatever else
         },
-        shared: {
-          react: {
-            ver,
-          },
-          // whatever else
-        },
+        shared: {},
       })
     );
 

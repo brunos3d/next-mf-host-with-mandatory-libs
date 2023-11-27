@@ -6,26 +6,30 @@
     "dev": "next dev -p 3011",
     "build": "next build",
     "start": "next start -p 3011",
+    "build:dev": "cross-env NODE_ENV=development next build",
+    "start:dev": "cross-env NODE_ENV=development next start -p 3011",
     "lint": "next lint"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "^7.0.8",
+    "@module-federation/nextjs-mf": "^8.1.0-canary.7",
+    "@module-federation/runtime": "^1.0.0-canary.1",
     "@module-federation/utilities": "^3.0.0",
     "next": "13.5.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-select": "^5.8.0",
-    "webpack": "^5.89.0"
+    "react-select": "^5.8.0"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
+    "cross-env": "^7.0.3",
     "eslint": "latest",
     "eslint-config-next": "latest",
     "postcss": "latest",
     "tailwindcss": "latest",
-    "typescript": "latest"
+    "typescript": "latest",
+    "webpack": "^5.89.0"
   }
 }
