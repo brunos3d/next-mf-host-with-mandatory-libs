@@ -15,6 +15,8 @@ const nextConfig = {
         shared: {
           'local-package': {
             singleton: true,
+              strictVersion: false,
+                requiredVersion: '1.5.0',
           },
           // whatever else
         },
